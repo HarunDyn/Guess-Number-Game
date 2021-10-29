@@ -25,6 +25,8 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
+  margin-right: 3rem;
 }
 
 h1 {
@@ -133,3 +135,14 @@ button {
   left: 1rem;
   border-radius: 0.5rem;
 } */
+@media (max-width: 425px) {
+  .find-number {
+    margin-right: 7rem;
+  }
+  .table {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10rem;
+  }
+}
